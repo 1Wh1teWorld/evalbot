@@ -8,7 +8,7 @@ except ModuleNotFoundError:
     pass
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
+BOT_TOKEN = "OTA1MTMzMjk1Nzc4NTM3NDky.YYFpEg.I878vDMLYQulbU9b9MEL9VFCxDw"
 
 if BOT_TOKEN is None:
     raise ValueError("Bot token is not defined, can not start bot.")
